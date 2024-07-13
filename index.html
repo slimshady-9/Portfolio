@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Assets/bussiness-man.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -91,7 +92,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Software Engineer</p>
+              <p>2+ years <br />Senior Software Engineer</p>
             </div>
             <div class="details-container">
               <img
@@ -100,17 +101,14 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.E. Computer Engineering<br />Upcoming MCS Grad @UC, Irvine</p>
+              <p>B.E. Computer Engineering<br />Incoming CS Grad UC, Irvine</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Coding enthusiast with a diverse knowledge base and professional experience in various areas of Computer Science.<br>
+              A quick learner who thrives in dynamic environments and adapts easily to new technologies and challenges.<br>
+              Love to improve myself and my algorithms. We are all binded in space & time :)
             </p>
           </div>
         </div>
@@ -264,60 +262,100 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/Project1Med.png"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">MedTranscribe</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/slimshady-9/MedTranscribe'"
               >
                 Github
               </button>
-              <button
+              <button type="button" class="btn btn-info btn-lg" onclick="openModal('MedTranscribe', '● Offering a platform tailored for clinics & hospitals to seamlessly transcribe audio recordings of doctor-patient interactions <br> ● Implemented real-time transcription, symptom & disease recognition, medication and medical test extraction using IBM WatsonX, customizable report generation, and interface for accessing and editing patient record<br><br>Stack: Angular, Python, IBM WatsonX, SQL')">Details</button>
+              <!-- <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/slimshady-9/MedTranscribe/tree/main/Screenshots'"
               >
-                Live Demo
-              </button>
+                Demo
+              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/Project2Patient.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Wellness Peers</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/slimshady-9/Wellness-Peers'"
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              <button type="button" class="btn btn-info btn-lg" onclick="openModal('Wellness Peers', ' ● Admin dashboard which displays Patient’s health status and showcasing the likelihood of developing certain medical conditions or health outcomes<br>● Involved preprocessing of MIMIC Data, Calculating Risk Score based on Chronic Conditions, ED Visits and then categorizing patients accordingly<br>● Implemented multiple ML algorithms like SVD, KNN and Random Forests to formulate Survival Chances.<br><br>Stack: Angular, Flask, Python, SQL, SciKitLearn Machine Learning Models')">Details</button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/Project3Smart.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Smart Marketing</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/slimshady-9/Smart-Marketing'"
+              >
+                Github
+              </button>
+              <button type="button" class="btn btn-info btn-lg" onclick="openModal('Smart Marketing through Product Recommendation', '● Software application designed to efficiently recommend products using Deep Belief Network<br>● Key Features include usage of Bag of Words, TF-IDF, Cosine Similarity achieving with precision of 93% and recall of 90%<br><br>Stack: Java, NetBeans, NLP, SQL')">Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section id="projects" style="margin-top: -100px;">
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/Project4Stock.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+            <h1 class="experience-sub-title project-title">Live Stock Tracker</h1>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/slimshady-9/Live-Stock-Tracker'"
+              >
+                Github
+              </button>
+              <button type="button" class="btn btn-info btn-lg" onclick="openModal('Live Stock Tracker','Developed a real-time stock tracking web application using Angular, which integrated with a Real-time API to produce a responsive website that displayed charts and data visualization for 500 companies over the past 5 years<br><br>Stack: Angular, REST APIs, JavaScript, ApexCharts, Bootstrap')">Details</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project3Smart.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">MVNO in a Box</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -325,12 +363,31 @@
               >
                 Github
               </button>
+              <button type="button" class="btn btn-info btn-lg" onclick="openModal('MVNO in a Box', '● Implemented a rapid solution for operator onboarding, ordering, branding, white-labelling, cataloging, AIML based recommendations & pricing, marketing.<br>● Leveraged the latest accelerators and open source tools<br><br>Stack: Angular, Spring Boot, TMF compliant OpenAPIs, AWS EC2/S3/AIML/Gateway, CI-CD automation Mongo Atlas')">Details</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+              <div class="iframe-container" id="iframeContainer">
+                <iframe id="modalIframe"></iframe>
+              </div>
+              
+              <img
+                src="./assets/Project5MVNO.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Virtual File System</h2>
+            <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
               >
-                Live Demo
+                Github
               </button>
+              <button type="button" class="btn btn-info btn-lg" onclick="openModal('Virtual File System', '● This project provides all functionality to the user which is same as Linux File system<br>● It provides necessary commands, system calls implementations of file system through customised shell<br>● In this project we implement all necessary data structures of file system like Incore Inode Table, File Table, UAREA, User File Descriptor table<br><br>Stack: C++, Linux OS')">Details</button>
             </div>
           </div>
         </div>
@@ -339,7 +396,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='#contact'"
       />
     </section>
     <section id="contact">
@@ -352,7 +409,13 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:sardak@uci.edu">sardak@uci.edu</a></p>
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:kksarda9@gmail.com">kksarda9@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +423,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/ketan-sarda/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -375,7 +438,13 @@
           </ul>
         </div>
       </nav>
+      <div class="Credit">
+      <a>Credits:</a>
+      <a href="https://www.flaticon.com/free-icons/picture" title="picture icons">Favicon by kliwir art - Flaticon</a>
+      <a href="https://www.youtube.com/@howtobecomeadeveloper">& webpage by John Doe</a>
+    </div>
     </footer>
+    <link rel="icon" type="image/x-icon" href="/Assets/">
     <script src="script.js"></script>
   </body>
 </html>

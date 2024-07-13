@@ -6,9 +6,11 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
-  #projects {
+  #contact{
     height: fit-content;
+  }
+  #projects {
+    height: max-content;
   }
 }
 
@@ -44,6 +46,9 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  #project{
+    height: fit-content !important;
   }
 }
 
